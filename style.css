@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  width: 50%;
+  height: 100vh;
+  color: #222;
+  background-image: linear-gradient(to top left, #b983ff, #bf2e34);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+main {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  text-align: center;
+  margin: 0, auto;
+  filter: blur();
+  height: 60rem;
+}
+
+h1 {
+  color: #efefef;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.4rem;
+  color: #fff;
+}
+p {
+  color: #efefef;
+  font-size: 1.2rem;
+}
